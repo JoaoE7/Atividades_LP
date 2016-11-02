@@ -1,0 +1,25 @@
+# Les_V1
+
+Autor: João Emmanuel
+
+# Sobre o trabalho
+
+O trabalho consiste em implementar uma lista encadeada simples, sem nó cabeça, que está dividido em três pastas: src, include e bin.
+
+A pasta src possui dois arquivos, o drive_ls_v1.cpp e o les_v1.cpp, o primeiro mostra funcionamento do programa, já no segundo está a implementação de todas as funções usadas.
+
+A pasta include contém o arquivo les_v1.h, onde estão os protótipos das funções (citadas acima) e as declarações de tipo de nó e ponteiro pra nó.
+
+A pasta bin conta com o executável do programa, de nome les_v1.
+ 
+# Como compilar
+
+O programa foi escrito em C++ e para compilar use:
+
+```
+g++ -Wall -std=c++11 -I include src/les_v1.cpp src/drive_les_v1.cpp -o bin/les_v1
+```
+Depois execute com:
+```
+./bin/les_v1
+```
